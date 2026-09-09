@@ -4,10 +4,10 @@ I took a raw dataset containing global tech layoff records and performed a compl
 using MySQL Workbench.
 
  🎯 Project Objectives:
-Remove Duplicates: Used SQL CTEs and Window Functions (`ROW_NUMBER()` over partition) to isolate and delete duplicate rows.
-Standardize Data: Cleaned up extra spaces and converted string-formatted dates into proper `DATE` types.
-Handle NULL & Blank Values: Converted empty strings to `NULL`.
-Remove Unnecessary Columns & Rows:Dropped temporary processing columns and removed unhelpful null records to optimize 
+1.Remove Duplicates: Used SQL CTEs and Window Functions (`ROW_NUMBER()` over partition) to isolate and delete duplicate rows.
+2.Standardize Data: Cleaned up extra spaces and converted string-formatted dates into proper `DATE` types.
+3.Handle NULL & Blank Values: Converted empty strings to `NULL`.
+4.Remove Unnecessary Columns & Rows:Dropped temporary processing columns and removed unhelpful null records to optimize 
 the final schema.
  💡 Through this project, I gained hands-on experience with:
 1. Creating staging tables to safely modify data without altering raw inputs.
