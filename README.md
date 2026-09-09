@@ -1,7 +1,7 @@
- 📊 SQL Data Cleaning Project — World Layoffs Dataset --
+ 📊 SQL Data Cleaning Project — World Layoffs Dataset
 
-I took a raw dataset containing global tech layoff records and performed a complete data-cleaning workflow
-using MySQL Workbench.
+
+This project focuses on cleaning and standardizing raw layoff data using MySQL Workbench to make it ready for exploratory data analysis (EDA).
 
 
  🎯 Project Objectives:
